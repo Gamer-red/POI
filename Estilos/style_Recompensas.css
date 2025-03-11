@@ -1,0 +1,31 @@
+
+.recompensas-container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.recompensas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recompensa {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recompensa img {
+    width: 80px;
+    height: 80px;
+}
+
+.recompensa p {
+    font-family: sans-serif;
+    color: #333;
+    margin-top: 10px;
+}
