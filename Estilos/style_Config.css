@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: sans-serif;
     margin: 0;
@@ -46,3 +47,35 @@ label {
 input[type="checkbox"] {
     transform: scale(1.5); /* ajusta el tamaño del checkbox */
 }
+=======
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.config-container {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(101, 100, 99);
+}
+
+.encryption-toggle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.encryption-status {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+}
+>>>>>>> c906c92b16ea7ecb1d8ef3047e7fb1374388178a

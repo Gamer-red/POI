@@ -11,6 +11,7 @@
         <h2>Registro</h2>
         
         <label for="username">Nombre de usuario</label>
+
         <input type="text" class="Regis" id="username" autocomplete="off" placeholder="Ingrese su nombre de usuario" required>
 
         <label for="password">Password</label>
@@ -22,6 +23,18 @@
         <label for="email">Correo</label>
         <input type="email" class="Regis" id="email" autocomplete="off" placeholder="Ingrese el correo electrónico" required>
 
+        <input type="text" class="Regis" id="username" autocomplete="off" placeholder="Ingrese su nombre de usuario">
+
+        <label for="password">Password</label>
+        <input type="password" class="Regis" id="password" autocomplete="off" placeholder="Ingrese una contraseña"> 
+
+        <label for="confirm-password">Confirmar contraseña</label>
+        <input type="password" class="Regis" id="confirm-password" autocomplete="off" placeholder="Ingrese otra vez la contraseña">
+
+        <label for="email">Correo</label>
+        <input type="email" class="Regis" id="email" autocomplete="off" placeholder="Ingrese el correo electrónico">
+
+
         <label for="foto">Seleccionar foto de perfil</label>
         <input type="file" class="foto" id="foto" name="foto" accept="image/*">
         
@@ -30,6 +43,7 @@
         </div>
 
         <button type="submit">Registrarse</button>
+
         <p id="error-message" style="color: red;"></p>
         <p id="success-message" style="color: green;"></p>
     </form>
@@ -191,5 +205,8 @@
             }
         });
     </script>
+
+    </form>
+    <script src="../JavaScript/Registro.js"></script>
 </body>
 </html>

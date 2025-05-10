@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { auth, db } from './firebase-config.js';
 import { collection, getDocs } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.js";
 import { signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js";
@@ -76,3 +77,23 @@ async function cargarUsuarios() {
 
 // Cargar usuarios al cargar la página
 cargarUsuarios();
+=======
+import { auth } from './firebase-config.js'; // Asegúrate de que el path sea correcto
+
+// Seleccionar el botón de "Salir"
+const logoutButton = document.getElementById('logout-button');
+
+// Manejar el evento de clic para cerrar sesión
+logoutButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevenir la acción por defecto del enlace
+
+    // Cerrar sesión en Firebase
+    auth.signOut().then(() => {
+        console.log('Sesión cerrada correctamente');
+        // Redirigir a la página de inicio de sesión
+        window.location.href = '../Pantallas/index.php';
+    }).catch((error) => {
+        console.error('Error al cerrar sesión: ', error);
+    });
+});
+>>>>>>> c906c92b16ea7ecb1d8ef3047e7fb1374388178a

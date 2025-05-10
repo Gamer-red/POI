@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 :root{
     --color1:rgb(15,123,212);
@@ -68,4 +69,76 @@
     fill: none;
     stroke: rgb(233, 233, 233);
     stroke-width: 15;
+=======
+
+:root{
+    --color1:rgb(15,123,212);
+}
+
+.contenedor{
+    background-color: #fff;
+    height: 340px;
+    width: 250px;
+    position: relative;
+    border-radius: 5px;
+    margin: 100px auto;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.svg{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+}
+
+.box_porcentaje{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.porcentaje{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #777;
+}
+
+.title{
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: .8cm;
+    color: var(--color1);
+    font-weight: bold;
+}
+
+.progress{
+    fill: none;
+    stroke-width: 15;
+    stroke: var(--color1);
+    stroke-dasharray: 630;
+    stroke-dashoffset: 630;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    stroke-linecap: round;
+}
+
+.progress2{
+    fill: none;
+    stroke: rgb(233, 233, 233);
+    stroke-width: 15;
+>>>>>>> c906c92b16ea7ecb1d8ef3047e7fb1374388178a
 }

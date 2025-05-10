@@ -73,3 +73,79 @@ input{
 .btn-2:hover{
     background-color: #09e83d;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica Neue, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../Imagenes/Fondo-InicioSesion.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #EEEEEE;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #2e2e2e;
+    margin-bottom: 25px;
+}
+
+label, p{
+    font-size: 17px;
+    color: #575757;
+    margin-bottom: 7px;
+}
+
+input{
+    padding: 17px 11px;
+    border: 1px solid #00ADEF;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    background-color: #FAFAFC;
+    outline: none;
+    color: #00ADEF;
+    font-size: 16px;
+}
+
+.btn-1{
+    background-color: #04B8FF;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: #53c0f2;
+}
+
+.btn-2{
+    background-color: #00fe2f;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    background-color: #09e83d;
+}
+
+

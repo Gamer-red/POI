@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
 }
@@ -139,3 +140,72 @@ body {
 .no-completada-btn:hover {
     background-color: #138496;
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tareas-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.nueva-tarea {
+    margin-bottom: 20px;
+}
+
+.nueva-tarea input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nueva-tarea button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nueva-tarea button:hover {
+    background-color: #0056b3;
+}
+
+.lista-tareas {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-tareas li {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.lista-tareas li.completada {
+    text-decoration: line-through;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.boton-completar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-completar:hover {
+    background-color: #218838;
+}
+>>>>>>> c906c92b16ea7ecb1d8ef3047e7fb1374388178a

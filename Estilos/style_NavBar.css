@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: sans-serif;
     margin: 0;
@@ -136,3 +137,67 @@ nav a:hover {
     font-size: 12px;
     color: green;
 }
+=======
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(101, 100, 99);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+.Logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nombre_empresa {
+    font-weight: bold;
+    color: white; /* Puedes ajustar el color según necesites */
+}
+
+/* Sección de navegación */
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Íconos a la derecha */
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons img {
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0;
+    }
+}
+>>>>>>> c906c92b16ea7ecb1d8ef3047e7fb1374388178a
