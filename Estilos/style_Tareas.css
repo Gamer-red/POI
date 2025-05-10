@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tareas-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.nueva-tarea {
+    margin-bottom: 20px;
+}
+
+.nueva-tarea input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nueva-tarea button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nueva-tarea button:hover {
+    background-color: #0056b3;
+}
+
+.lista-tareas {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-tareas li {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.lista-tareas li.completada {
+    text-decoration: line-through;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.boton-completar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-completar:hover {
+    background-color: #218838;
+}
+
+.tarea-completada {
+    text-decoration: line-through;
+    color: green;
+}
+
+.tarea-no-completada {
+    text-decoration: none;
+    color: red;
+}
+
+.contador-tareas {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grupo-editar-eliminar,
+.grupo-completado {
+    display: flex;
+    gap: 10px;
+}
+
+.editar-btn {
+    background-color: #ffc107; /* Amarillo */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editar-btn:hover {
+    background-color: #e0a800;
+}
+
+.eliminar-btn {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.eliminar-btn:hover {
+    background-color: #c82333;
+}
+
+.completada-btn {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.completada-btn:hover {
+    background-color: #218838;
+}
+
+.no-completada-btn {
+    background-color: #17a2b8; /* Celeste */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.no-completada-btn:hover {
+    background-color: #138496;
+}
